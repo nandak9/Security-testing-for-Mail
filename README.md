@@ -25,12 +25,12 @@ script. Some hints:
   mails. This can be fine-tuned with `--delay-step`, `--delay-max` and `--delay`.
 * Some tests (Spam and Malware) require samples. Put these in directories and configure these directories with
   `--spam-folder` and `--malware-folder` parameters. The samples are not included in this repository (and will not be).
-  Good places to get malware are [theZoo](https://github.com/ytisf/theZoo), [Das Malwerk](http://dasmalwerk.eu/) or
+  Good places to get malware are theZoo, Das Malwerk or
   other collections. Spam can be exported straight from yout Spam folder, but must be in EML format.
 * Blacklists can be supplied with the `--blacklist` parameter and are used as sender addresses.
 * The Shellshock and subject XSS test cases should have a valid backconnect domain, where you are able to see any backconnects
-  (especially DNS requests). The free [Canary Tokens service](http://canarytokens.org/generate) can be used for this
-  purpose. Thanks to [Thinkst](https://thinkst.com/) for providing this awesome service!
+  (especially DNS requests). The free Canary Tokens service can be used for this
+  purpose. Thanks to Thinkst for providing this awesome service!
 * Some neat attachment recognition evasion tricks can be enabled with `--evasion content-disposition`. These were used
   in the past to confuse AV/sandboxing solutions and let them pass malicious mails.
 * Don't forget to log the test results with `--log`. Mail filtering providers often reject mails in the SMTP dialog,
