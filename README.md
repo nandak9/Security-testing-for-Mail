@@ -1,7 +1,7 @@
 [![Build Status](https://api.travis-ci.org/TKCERT/mail-security-tester.svg?branch=master)](https://travis-ci.org/TKCERT/mail-security-tester)
 # Mail Security Testing Framework
 
-A testing framework for mail security and filtering solutions.
+A testing framework for mail security and filtering solutions. 
 
 **IMPORTANT:** Don't do anything evil with this! Tests of cloud or otherwise hosted solutions should always be approved
 by the tested provider. Only use your own test accounts and don't annoy anyone with a load of test mails.
